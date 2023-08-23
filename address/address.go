@@ -30,7 +30,7 @@ func main() {
 	// Prompt for key id
 	fmt.Println("Enter key id")
 	keyIDPrompt := promptui.Prompt{
-		Label: "Address",
+		Label: "Public Key",
 	}
 
 	keyID, err := keyIDPrompt.Run()

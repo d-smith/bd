@@ -1,0 +1,11 @@
+{
+  "name": "ganache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "ganache": "ganache --hardfork london --wallet.seed \"plate retire drum shallow still rain total december smoke company dance genius\""
+  },
+  "author": "",
+  "license": "ISC"
+}
