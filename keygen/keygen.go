@@ -30,6 +30,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("Generated key: ID=%s\n", keyID)
+	fmt.Printf("Generated key ID: %s\n", keyID)
 
 }
