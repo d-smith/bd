@@ -52,6 +52,7 @@ func main() {
 	// Create clients for each player
 
 	playerCount := len(creds.URLs)
+	log.Print("player count: ", playerCount)
 	ecdsaClients := make([]tsm.ECDSAClient, playerCount)
 	for player := 0; player < playerCount; player++ {
 		credsPlayer := tsm.PasswordCredentials{
